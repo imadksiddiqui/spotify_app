@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn.dropdown-toggle  {
+    width:180px;
+    text-align:left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:5px;
+}
+
+.form-label {
+    padding-left:0px !important;
+}
+
+img {
+    width:140px;
+    height:140px;
+}
+
+.btn-success {
+    background-color: #4b995d!important;
+}
+
+.btn-success:hover {
+    background-color: #35bd54!important;
+}
+
+img.track {
+    border: 1px solid #8a8a8a;
+}
